@@ -8,6 +8,7 @@ import com.microsoft.azure.synapse.ml.core.env.StreamUtilities.using
 
 import java.io._
 import scala.collection.JavaConverters._
+import breeze.linalg.functions.euclideanDistance
 
 private case class Query(point: DenseVector[Double],
                          normOfQueryPoint: Double,
