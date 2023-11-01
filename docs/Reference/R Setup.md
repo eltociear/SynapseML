@@ -16,7 +16,7 @@ machine.
 
 Also make sure you have Apache Spark installed. If you are using Sparklyr, you can use [spark-install](https://spark.rstudio.com/packages/sparklyr/latest/reference/spark_install.html). Be sure to specify the correct version. As of this writing, that should be version="3.2". spark_install is a bit eccentric and may install a slightly different version. Be sure that the version you get is one that you want.
 
-On Windows, download [WinUtils.exe](https://github.com/steveloughran/winutils/blob/master/hadoop-3.0.0/bin/winutils.exe) and copy it into the `bin` directory of your Spark installation, e.g. C:\Users\user\AppData\Local\Spark\spark-3.3.2-bin-hadoop3\bin
+On Windows, download [WinUtils.exe](https://github.com/steveloughran/winutils/blob/master/hadoop-3.0.0/bin/winutils.exe) and copy it into the `bin` directory of your Spark installation, e.g. C:\Users\user\AppData\Local\Spark\spark-3.3.3-bin-hadoop3\bin
 
 To install the current SynapseML package for R, first install synapseml-core:
 
