@@ -14,7 +14,7 @@ To learn more about the Isolation Forest model please refer to the original pape
 
 
 ```python
-%pip install sqlparse raiwidgets interpret-community mlflow==2.6.0
+%pip install sqlparse raiwidgets interpret-community mlflow
 ```
 
 ## Library imports

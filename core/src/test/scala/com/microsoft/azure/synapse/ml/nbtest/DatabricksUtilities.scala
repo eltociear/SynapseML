@@ -57,7 +57,7 @@ object DatabricksUtilities {
     "Pillow",
     "onnxmltools==1.7.0",
     "lightgbm",
-    "mlflow==2.6.0",
+    "mlflow",
     "openai",
     "langchain",
     "pdf2image",
